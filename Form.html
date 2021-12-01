@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <link rel="stylesheet" type="text/css" href="./dist/Form.css" />
+</head>
+<body>
+    <div class="form">
+        <div class="title" id="title">Welcome</div>
+        <div id="toShow"> 
+            <div class="title" id="fName"> </div>
+            <div class="title" id="fAge"> </div>
+            <div class="title" id="fPhone"> </div>
+            <div class="title" id="fAdress"> </div>
+        </div>
+        <div id="toHide"> 
+        <div class="subtitle" id='stitle'>Let's create your account!</div>
+        <div class="input-container ic1">
+          <input id="firstname" class="input" type="text" placeholder=" " />
+          <div class="cut"></div>
+          <label for="firstname" class="placeholder">First name</label>
+        </div>
+        <div class="input-container ic2">
+          <input id="lastname" class="input" type="text" placeholder=" " />
+          <div class="cut"></div>
+          <label for="lastname" class="placeholder">Last name</label>
+        </div>
+        <div class="input-container ic2">
+            <input id="Sex" class="input" type="text" placeholder=" " />
+            <div class="cut"></div>
+            <label for="Sex" class="placeholder">Sex</label>
+          </div>
+          <div class="input-container ic2">
+            <input id="Age" class="input" type="text" placeholder=" " />
+            <div class="cut"></div>
+            <label for="Age" class="placeholder">Input your Age</label>
+          </div>
+          <div class="input-container ic2">
+            <input id="Adress" class="input" type="text" placeholder=" " />
+            <div class="cut"></div>
+            <label for="Adress" class="placeholder">Adress</label>
+          </div>
+          <div class="input-container ic2">
+            <input id="Phone" class="input" type="text" placeholder=" " />
+            <div class="cut"></div>
+            <label for="Phone" class="placeholder">Phone number</label>
+          </div>
+        <button type="text" class="submit"  onclick='check()'>submit</button>
+      </div>
+    </div>
+     
+
+      <script src="./Form.js"></script>
+</body>
+</html>
